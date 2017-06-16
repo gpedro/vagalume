@@ -123,7 +123,7 @@ function Vagalume() {
 
     if(type !== constants.rank.type.album) {
       opts.period = period;
-      if(periodVal) {
+      if (periodVal) {
         opts.periodVal = periodVal;
       }
     }
