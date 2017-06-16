@@ -1,6 +1,6 @@
 {
   "name": "vagalume",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Vagalume API Node Module",
   "homepage": "http://github.com/gpedro/node-vagalume/",
   "author": {
@@ -19,8 +19,8 @@
     "gpedro"
   ],
   "dependencies": {
-    "bluebird": "^2.9.25",
-    "dashify": "^0.1.0"
+    "bluebird": "^3.1.1",
+    "dashify": "^0.2.0"
   },
   "devDependencies": {
     "browserify": "^9.0.3",
@@ -35,7 +35,8 @@
     "time-grunt": "^1.1.0"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "util/constants.js"
   ],
   "scripts": {
     "test": "grunt && npm run browser-test",
