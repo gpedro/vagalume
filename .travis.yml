@@ -1,9 +1,7 @@
 sudo: false
 language: node_js
 node_js:
-  - 'iojs'
-  - '0.12'
-  - '0.10'
+  - 'node'
 env:
   CODECLIMATE_REPO_TOKEN: '9c3a8f62dcb2f61305a1c3d66df776e20be87183fec99313920d6468a199394d'
 before_script:
